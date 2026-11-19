@@ -15,7 +15,15 @@ Your counter and settings are kept between sessions.
 
 ## Install
 
-At the prompt of a Claude Code terminal session:
+Azkar is not in Claude's plugin directory, so searching for it inside Claude won't find it. Add this repository as a marketplace first, in one of these ways.
+
+**From a shell** (the quickest way):
+
+```bash
+claude plugin install azkar --marketplace Aomaf/claude-azkar
+```
+
+**At the prompt of a Claude Code terminal session:**
 
 ```
 /plugin install azkar --marketplace Aomaf/claude-azkar
@@ -23,13 +31,9 @@ At the prompt of a Claude Code terminal session:
 
 Answer `y` to add the marketplace, then pick the user scope.
 
-From a shell:
+**In the Claude desktop app:** click **+** next to the prompt box, then **Plugins**, then **Add marketplace**. Pick **GitHub repo**, enter `Aomaf/claude-azkar`, and add **azkar** from the list that appears.
 
-```bash
-claude plugin install azkar --marketplace Aomaf/claude-azkar
-```
-
-In the Claude desktop app, where `/plugin` does not run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `Aomaf/claude-azkar`, then **Add plugin**.
+Then start a new session to see it. If the install fails, update Claude Code first (`claude update`): the mod needs version 2.1.309 or later.
 
 ## Use
 
