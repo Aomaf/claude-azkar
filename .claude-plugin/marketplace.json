@@ -1,0 +1,11 @@
+{
+  "name": "claude-azkar",
+  "owner": { "name": "Aomaf" },
+  "plugins": [
+    {
+      "name": "azkar",
+      "source": "./",
+      "description": "Shows azkar (Arabic + meaning) while Claude works, with a tasbih counter above the prompt"
+    }
+  ]
+}
